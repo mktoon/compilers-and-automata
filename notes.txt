@@ -1,0 +1,23 @@
+lab4
+line no lex
+reports abt errors in lines - yacc 
+we must declare everything before using any variables
+#define max 26
+int regs[max];
+make sure that your calculator works with the symbols table
+P is defined as
+P   :   P->DECLs List
+    ; all the other decl
+DECLS   :DECL
+        ;
+
+%token T_INT
+start P;
+inside lex we need to train it to accept T-INTcreate a reserver word
+int {return(T_INT);}
+train lex to take in a semicolon
+[;()=]
+int x; - this should work
+int hello; - should not work
+multi linked variables 
+to fix this we do [a-zA-Z][a-zA-Z0-9_]*

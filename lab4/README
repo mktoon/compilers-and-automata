@@ -1,0 +1,4 @@
+Readme file that contains your name, project name, a short paragraph about which requirements you have done and don't.
+Micah Too
+Lab 4
+For this lab, i completed all the steps. updating the lex program to match variable names and creating a %UNION inside YACC to enable LEX to return Integer. Also defined each multi-valied token in CFG. updated the rule for INTEGER and used strdup() to copy yytext to yyval.string. Also created a fetchaddr() to get the address of the declared variable. 
