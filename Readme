@@ -1,0 +1,23 @@
+CMINUS+ Compiler
+
+The CMINUS+ Compiler is a project aimed at implementing a compiler for the CMINUS+ programming language. This open-source compiler provides a comprehensive set of functionalities, including lexical analysis, syntax parsing, symbol table management, and intermediate code generation.
+
+Key Features:
+
+Lexical Analysis: Tokenizes the input source code using well-defined lexical rules.
+Syntax Analysis: Employs a YACC parser to generate an Abstract Syntax Tree (AST) based on the CMINUS+ grammar.
+Symbol Table Management: Manages a symbol table to handle variables, functions, and other program entities, ensuring proper scoping and type information.
+Intermediate Code Generation: Generates intermediate code from the AST, facilitating further compilation steps.
+How to Use:
+
+Clone the Repository:
+Build the Compiler:
+make
+Compile CMINUS+ Programs:
+./cminusc input.cminus
+View Generated Output:
+Check the generated intermediate code in the specified output file.
+Contributing:
+
+We welcome contributions! If you find a bug or have an enhancement, feel free to open an issue or submit a pull request.
+
